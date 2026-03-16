@@ -1,0 +1,88 @@
+:root {
+  --bg-pattern-color: %23004b00;
+  --bg-main: #dbdbdb;
+}
+
+.dark {
+  --bg-pattern-color: %2300ff41;
+  --bg-main: #000000;
+}
+
+body {
+  background-color: var(--bg-main);
+  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='84px' height='54px' viewBox='-10 -10 64 34'%3E%3Cg fill='%2300ff41'%3E%3Crect x='10' y='2' width='2' height='2'/%3E%3Crect x='12' y='2' width='2' height='2'/%3E%3Crect x='24' y='2' width='2' height='2'/%3E%3Crect x='26' y='2' width='2' height='2'/%3E%3Crect x='28' y='2' width='2' height='2'/%3E%3Crect x='46' y='2' width='2' height='2'/%3E%3Crect x='48' y='2' width='2' height='2'/%3E%3Crect x='8' y='4' width='2' height='2'/%3E%3Crect x='10' y='4' width='2' height='2'/%3E%3Crect x='12' y='4' width='2' height='2'/%3E%3Crect x='22' y='4' width='2' height='2'/%3E%3Crect x='24' y='4' width='2' height='2'/%3E%3Crect x='28' y='4' width='2' height='2'/%3E%3Crect x='30' y='4' width='2' height='2'/%3E%3Crect x='44' y='4' width='2' height='2'/%3E%3Crect x='46' y='4' width='2' height='2'/%3E%3Crect x='48' y='4' width='2' height='2'/%3E%3Crect x='6' y='6' width='2' height='2'/%3E%3Crect x='8' y='6' width='2' height='2'/%3E%3Crect x='10' y='6' width='2' height='2'/%3E%3Crect x='12' y='6' width='2' height='2'/%3E%3Crect x='20' y='6' width='2' height='2'/%3E%3Crect x='22' y='6' width='2' height='2'/%3E%3Crect x='30' y='6' width='2' height='2'/%3E%3Crect x='32' y='6' width='2' height='2'/%3E%3Crect x='42' y='6' width='2' height='2'/%3E%3Crect x='44' y='6' width='2' height='2'/%3E%3Crect x='46' y='6' width='2' height='2'/%3E%3Crect x='48' y='6' width='2' height='2'/%3E%3Crect x='4' y='8' width='2' height='2'/%3E%3Crect x='6' y='8' width='2' height='2'/%3E%3Crect x='10' y='8' width='2' height='2'/%3E%3Crect x='12' y='8' width='2' height='2'/%3E%3Crect x='20' y='8' width='2' height='2'/%3E%3Crect x='22' y='8' width='2' height='2'/%3E%3Crect x='30' y='8' width='2' height='2'/%3E%3Crect x='32' y='8' width='2' height='2'/%3E%3Crect x='40' y='8' width='2' height='2'/%3E%3Crect x='42' y='8' width='2' height='2'/%3E%3Crect x='46' y='8' width='2' height='2'/%3E%3Crect x='48' y='8' width='2' height='2'/%3E%3Crect x='2' y='10' width='2' height='2'/%3E%3Crect x='4' y='10' width='2' height='2'/%3E%3Crect x='10' y='10' width='2' height='2'/%3E%3Crect x='12' y='10' width='2' height='2'/%3E%3Crect x='20' y='10' width='2' height='2'/%3E%3Crect x='22' y='10' width='2' height='2'/%3E%3Crect x='30' y='10' width='2' height='2'/%3E%3Crect x='32' y='10' width='2' height='2'/%3E%3Crect x='38' y='10' width='2' height='2'/%3E%3Crect x='40' y='10' width='2' height='2'/%3E%3Crect x='46' y='10' width='2' height='2'/%3E%3Crect x='48' y='10' width='2' height='2'/%3E%3Crect x='2' y='12' width='2' height='2'/%3E%3Crect x='4' y='12' width='2' height='2'/%3E%3Crect x='10' y='12' width='2' height='2'/%3E%3Crect x='12' y='12' width='2' height='2'/%3E%3Crect x='20' y='12' width='2' height='2'/%3E%3Crect x='22' y='12' width='2' height='2'/%3E%3Crect x='30' y='12' width='2' height='2'/%3E%3Crect x='32' y='12' width='2' height='2'/%3E%3Crect x='38' y='12' width='2' height='2'/%3E%3Crect x='40' y='12' width='2' height='2'/%3E%3Crect x='46' y='12' width='2' height='2'/%3E%3Crect x='48' y='12' width='2' height='2'/%3E%3Crect x='2' y='14' width='2' height='2'/%3E%3Crect x='4' y='14' width='2' height='2'/%3E%3Crect x='6' y='14' width='2' height='2'/%3E%3Crect x='8' y='14' width='2' height='2'/%3E%3Crect x='10' y='14' width='2' height='2'/%3E%3Crect x='12' y='14' width='2' height='2'/%3E%3Crect x='14' y='14' width='2' height='2'/%3E%3Crect x='20' y='14' width='2' height='2'/%3E%3Crect x='22' y='14' width='2' height='2'/%3E%3Crect x='30' y='14' width='2' height='2'/%3E%3Crect x='32' y='14' width='2' height='2'/%3E%3Crect x='38' y='14' width='2' height='2'/%3E%3Crect x='40' y='14' width='2' height='2'/%3E%3Crect x='42' y='14' width='2' height='2'/%3E%3Crect x='44' y='14' width='2' height='2'/%3E%3Crect x='46' y='14' width='2' height='2'/%3E%3Crect x='48' y='14' width='2' height='2'/%3E%3Crect x='50' y='14' width='2' height='2'/%3E%3Crect x='10' y='16' width='2' height='2'/%3E%3Crect x='12' y='16' width='2' height='2'/%3E%3Crect x='20' y='16' width='2' height='2'/%3E%3Crect x='22' y='16' width='2' height='2'/%3E%3Crect x='30' y='16' width='2' height='2'/%3E%3Crect x='32' y='16' width='2' height='2'/%3E%3Crect x='46' y='16' width='2' height='2'/%3E%3Crect x='48' y='16' width='2' height='2'/%3E%3Crect x='10' y='18' width='2' height='2'/%3E%3Crect x='12' y='18' width='2' height='2'/%3E%3Crect x='22' y='18' width='2' height='2'/%3E%3Crect x='24' y='18' width='2' height='2'/%3E%3Crect x='28' y='18' width='2' height='2'/%3E%3Crect x='30' y='18' width='2' height='2'/%3E%3Crect x='46' y='18' width='2' height='2'/%3E%3Crect x='48' y='18' width='2' height='2'/%3E%3Crect x='8' y='20' width='2' height='2'/%3E%3Crect x='10' y='20' width='2' height='2'/%3E%3Crect x='12' y='20' width='2' height='2'/%3E%3Crect x='14' y='20' width='2' height='2'/%3E%3Crect x='24' y='20' width='2' height='2'/%3E%3Crect x='26' y='20' width='2' height='2'/%3E%3Crect x='28' y='20' width='2' height='2'/%3E%3Crect x='44' y='20' width='2' height='2'/%3E%3Crect x='46' y='20' width='2' height='2'/%3E%3Crect x='48' y='20' width='2' height='2'/%3E%3Crect x='50' y='20' width='2' height='2'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 100px;
+  background-attachment: fixed;
+  animation: slideBackground 20s linear infinite;
+  transition: background-color 0.3s ease;
+}
+
+html:not(.dark) body {
+  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='84px' height='54px' viewBox='-10 -10 64 34'%3E%3Cg fill='%23004b00'%3E%3Crect x='10' y='2' width='2' height='2'/%3E%3Crect x='12' y='2' width='2' height='2'/%3E%3Crect x='24' y='2' width='2' height='2'/%3E%3Crect x='26' y='2' width='2' height='2'/%3E%3Crect x='28' y='2' width='2' height='2'/%3E%3Crect x='46' y='2' width='2' height='2'/%3E%3Crect x='48' y='2' width='2' height='2'/%3E%3Crect x='8' y='4' width='2' height='2'/%3E%3Crect x='10' y='4' width='2' height='2'/%3E%3Crect x='12' y='4' width='2' height='2'/%3E%3Crect x='22' y='4' width='2' height='2'/%3E%3Crect x='24' y='4' width='2' height='2'/%3E%3Crect x='28' y='4' width='2' height='2'/%3E%3Crect x='30' y='4' width='2' height='2'/%3E%3Crect x='44' y='4' width='2' height='2'/%3E%3Crect x='46' y='4' width='2' height='2'/%3E%3Crect x='48' y='4' width='2' height='2'/%3E%3Crect x='6' y='6' width='2' height='2'/%3E%3Crect x='8' y='6' width='2' height='2'/%3E%3Crect x='10' y='6' width='2' height='2'/%3E%3Crect x='12' y='6' width='2' height='2'/%3E%3Crect x='20' y='6' width='2' height='2'/%3E%3Crect x='22' y='6' width='2' height='2'/%3E%3Crect x='30' y='6' width='2' height='2'/%3E%3Crect x='32' y='6' width='2' height='2'/%3E%3Crect x='42' y='6' width='2' height='2'/%3E%3Crect x='44' y='6' width='2' height='2'/%3E%3Crect x='46' y='6' width='2' height='2'/%3E%3Crect x='48' y='6' width='2' height='2'/%3E%3Crect x='4' y='8' width='2' height='2'/%3E%3Crect x='6' y='8' width='2' height='2'/%3E%3Crect x='10' y='8' width='2' height='2'/%3E%3Crect x='12' y='8' width='2' height='2'/%3E%3Crect x='20' y='8' width='2' height='2'/%3E%3Crect x='22' y='8' width='2' height='2'/%3E%3Crect x='30' y='8' width='2' height='2'/%3E%3Crect x='32' y='8' width='2' height='2'/%3E%3Crect x='40' y='8' width='2' height='2'/%3E%3Crect x='42' y='8' width='2' height='2'/%3E%3Crect x='46' y='8' width='2' height='2'/%3E%3Crect x='48' y='8' width='2' height='2'/%3E%3Crect x='2' y='10' width='2' height='2'/%3E%3Crect x='4' y='10' width='2' height='2'/%3E%3Crect x='10' y='10' width='2' height='2'/%3E%3Crect x='12' y='10' width='2' height='2'/%3E%3Crect x='20' y='10' width='2' height='2'/%3E%3Crect x='22' y='10' width='2' height='2'/%3E%3Crect x='30' y='10' width='2' height='2'/%3E%3Crect x='32' y='10' width='2' height='2'/%3E%3Crect x='38' y='10' width='2' height='2'/%3E%3Crect x='40' y='10' width='2' height='2'/%3E%3Crect x='46' y='10' width='2' height='2'/%3E%3Crect x='48' y='10' width='2' height='2'/%3E%3Crect x='2' y='12' width='2' height='2'/%3E%3Crect x='4' y='12' width='2' height='2'/%3E%3Crect x='10' y='12' width='2' height='2'/%3E%3Crect x='12' y='12' width='2' height='2'/%3E%3Crect x='20' y='12' width='2' height='2'/%3E%3Crect x='22' y='12' width='2' height='2'/%3E%3Crect x='30' y='12' width='2' height='2'/%3E%3Crect x='32' y='12' width='2' height='2'/%3E%3Crect x='38' y='12' width='2' height='2'/%3E%3Crect x='40' y='12' width='2' height='2'/%3E%3Crect x='46' y='12' width='2' height='2'/%3E%3Crect x='48' y='12' width='2' height='2'/%3E%3Crect x='2' y='14' width='2' height='2'/%3E%3Crect x='4' y='14' width='2' height='2'/%3E%3Crect x='6' y='14' width='2' height='2'/%3E%3Crect x='8' y='14' width='2' height='2'/%3E%3Crect x='10' y='14' width='2' height='2'/%3E%3Crect x='12' y='14' width='2' height='2'/%3E%3Crect x='14' y='14' width='2' height='2'/%3E%3Crect x='20' y='14' width='2' height='2'/%3E%3Crect x='22' y='14' width='2' height='2'/%3E%3Crect x='30' y='14' width='2' height='2'/%3E%3Crect x='32' y='14' width='2' height='2'/%3E%3Crect x='38' y='14' width='2' height='2'/%3E%3Crect x='40' y='14' width='2' height='2'/%3E%3Crect x='42' y='14' width='2' height='2'/%3E%3Crect x='44' y='14' width='2' height='2'/%3E%3Crect x='46' y='14' width='2' height='2'/%3E%3Crect x='48' y='14' width='2' height='2'/%3E%3Crect x='50' y='14' width='2' height='2'/%3E%3Crect x='10' y='16' width='2' height='2'/%3E%3Crect x='12' y='16' width='2' height='2'/%3E%3Crect x='20' y='16' width='2' height='2'/%3E%3Crect x='22' y='16' width='2' height='2'/%3E%3Crect x='30' y='16' width='2' height='2'/%3E%3Crect x='32' y='16' width='2' height='2'/%3E%3Crect x='46' y='16' width='2' height='2'/%3E%3Crect x='48' y='16' width='2' height='2'/%3E%3Crect x='10' y='18' width='2' height='2'/%3E%3Crect x='12' y='18' width='2' height='2'/%3E%3Crect x='22' y='18' width='2' height='2'/%3E%3Crect x='24' y='18' width='2' height='2'/%3E%3Crect x='28' y='18' width='2' height='2'/%3E%3Crect x='30' y='18' width='2' height='2'/%3E%3Crect x='46' y='18' width='2' height='2'/%3E%3Crect x='48' y='18' width='2' height='2'/%3E%3Crect x='8' y='20' width='2' height='2'/%3E%3Crect x='10' y='20' width='2' height='2'/%3E%3Crect x='12' y='20' width='2' height='2'/%3E%3Crect x='14' y='20' width='2' height='2'/%3E%3Crect x='24' y='20' width='2' height='2'/%3E%3Crect x='26' y='20' width='2' height='2'/%3E%3Crect x='28' y='20' width='2' height='2'/%3E%3Crect x='44' y='20' width='2' height='2'/%3E%3Crect x='46' y='20' width='2' height='2'/%3E%3Crect x='48' y='20' width='2' height='2'/%3E%3Crect x='50' y='20' width='2' height='2'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+@keyframes slideBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1000px 1000px;
+  }
+}
+/* --- CONTENEDOR PRINCIPAL --- */
+.container {
+  max-width: 900px;
+  margin: 40px auto; /* Esto crea el espacio para ver el fondo arriba y abajo */
+  background: #ffffff;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  position: relative;
+}
+
+/* MODO OSCURO */
+.dark .container {
+  background: rgba(15, 15, 15, 0.95);
+  border: 1px solid #00ff41;
+  color: #00ff41;
+}
+.dark h1, .dark h3 {
+  color: #00ff41 !important;
+  border-color: #00ff41 !important;
+}
+
+.dark .subtitle, .dark .texto-contenido {
+  color: #a2fca2;
+}
+
+/* --- ESTRUCTURA DEL CV --- */
+.header {
+  border-bottom: 3px solid #2c3e50;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+h1 { margin: 0; color: #2c3e50; font-size: 1.8rem; }
+.subtitle { color: #7f8c8d; font-weight: bold; }
+
+h3 {
+  color: #2980b9;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  border-left: 4px solid #2980b9;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .grid-content { grid-template-columns: 1fr; }
+  .container { padding: 20px; }
+}

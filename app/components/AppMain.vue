@@ -1,7 +1,10 @@
 <template>
   <section class="main-info">
     <h3>Sobre mí</h3>
-    <p>Estudiante con sólidos conocimientos en lenguajes de programación, gestión de redes bajo normas ISO y procesos de auditoría informática...</p>
+    <p>
+      Estudiante con sólidos conocimientos en lenguajes de programación, gestión
+      de redes bajo normas ISO y procesos de auditoría informática...
+    </p>
 
     <h3>Habilidades</h3>
     <div class="skills-grid">

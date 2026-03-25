@@ -27,14 +27,12 @@ const isDark = computed({
   height: 2em;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
   opacity: 1;
   width: 0;
   height: 0;
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;

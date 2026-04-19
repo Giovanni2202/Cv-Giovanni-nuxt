@@ -1,10 +1,19 @@
 <template>
-  <BackgroundError />
-  <div class="container">
-    <ColorModeButton />
-    <AppHeader />
-    <AppMain />
-    <AppFooter />
+  <div class="app-layout">
+    <AppSidebar />
+    <main class="main-content">
+      <slot />
+    </main>
   </div>
-  <slot />
 </template>
+
+<style>
+.app-layout {
+  display: flex;
+}
+.main-content {
+  margin-left: 260px;
+  width: 100%;
+  min-height: 100vh;
+}
+</style>

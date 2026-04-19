@@ -5,6 +5,3 @@
     <ColorModeButton />
   </header>
 </template>
-
-
-

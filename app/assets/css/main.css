@@ -86,3 +86,12 @@ h3 {
   .grid-content { grid-template-columns: 1fr; }
   .container { padding: 20px; }
 }
+
+/* Esto asegura legibilidad en cualquier parte del sitio oscuro */
+.dark-mode {
+  color: #d1ffd6;
+}
+
+.dark-mode h2, .dark-mode h3 {
+  color: #00ff41;
+}

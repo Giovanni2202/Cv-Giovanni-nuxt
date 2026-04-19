@@ -17,5 +17,29 @@
         <p class="texto-contenido">MySQL, SQL</p>
       </div>
     </div>
+
+    <ContactForm />
   </section>
 </template>
+
+<style scoped>
+.main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px;
+  color: #00ff41;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-item {
+  border: 1px solid #003300;
+  padding: 15px;
+  background: rgba(0, 20, 0, 0.5);
+}
+</style>

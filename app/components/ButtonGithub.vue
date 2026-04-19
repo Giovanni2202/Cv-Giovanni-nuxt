@@ -3,7 +3,7 @@
 <template>
 <div>
     <NuxtLink
-    to="https://github.com/Giovanni2202"
+    to="https://github.com/Giovanni2202?tab=repositories"
     target="_blank"
     class="Btn"
     >
@@ -16,4 +16,51 @@
 </template>
 
 <style scoped>
+.Btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #00ff41;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.svgContainer {
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.BG {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00ff41;
+  z-index: 1;
+  transform: translateY(100%);
+  transition: all 0.3s;
+}
+
+/* Efecto Hover */
+.Btn:hover .svgContainer {
+  transform: scale(1.2);
+}
+
+.Btn:hover .svgContainer svg {
+  fill: #000; /* El icono se vuelve negro sobre el fondo verde */
+}
+
+.Btn:hover .BG {
+  transform: translateY(0);
+}
+
+.Btn:hover {
+  box-shadow: 0 0 15px #00ff41;
+}
 </style>

@@ -12,6 +12,7 @@
     </span>
     <span class="BG"></span>
     </NuxtLink>
+    <span class="terminal-title">GIT-HUB</span>
 </div>
 </template>
 

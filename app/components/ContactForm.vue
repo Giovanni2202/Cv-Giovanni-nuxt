@@ -121,65 +121,61 @@ const handleSubmit = async () => {
 </template>
 
 <style scoped>
-/* Los estilos que ya tenías para mantener la estética Matrix */
 .matrix-form-container {
-  border: 1px solid #00ff41;
-  background: rgba(0, 20, 0, 0.8);
+  border: 1px solid var(--accent-color);
+  background: var(--panel-bg);
   border-radius: 8px;
   overflow: hidden;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .terminal-header {
-  background: #1a1a1a;
+  background: var(--header-bg);
   padding: 10px;
   display: flex;
   align-items: center;
   gap: 8px;
-  border-bottom: 1px solid #00ff41;
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .dot { width: 12px; height: 12px; border-radius: 50%; }
-.red { background: #ff5f56; }
+.red { background: #ff5f56; } /* Fijos para mantener el estilo de terminal */
 .yellow { background: #ffbd2e; }
 .green { background: #27c93f; }
 
-.terminal-title { color: #00ff41; font-size: 0.8rem; margin-left: 10px; }
+.terminal-title { color: var(--accent-color); font-size: 0.8rem; margin-left: 10px; }
 
 .matrix-form { padding: 20px; display: flex; flex-direction: column; gap: 20px; }
-
 .grid-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-
 .input-group { display: flex; flex-direction: column; gap: 8px; }
 .full-width { grid-column: span 2; }
 
-label { color: #00ff41; font-size: 0.9rem; }
+label { color: var(--accent-color); font-size: 0.9rem; }
 
 input, textarea {
   background: transparent;
-  border: 1px solid #004411;
-  color: #00ff41;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
   padding: 10px;
   outline: none;
 }
 
-input:focus, textarea:focus { border-color: #00ff41; box-shadow: 0 0 5px #00ff41; }
+input:focus, textarea:focus { border-color: var(--accent-color); box-shadow: 0 0 5px var(--accent-color); }
 
 .submit-btn {
   background: transparent;
-  border: 1px solid #00ff41;
-  color: #00ff41;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
   padding: 15px;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .submit-btn:hover:not(:disabled) {
-  background: #00ff41;
-  color: #000;
+  background: var(--accent-color);
+  color: var(--bg-main);
 }
 
 .submit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
 .error-border { border-color: #ff0000 !important; }
 </style>
